@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(241, 241, 233);
+}
+
+header img {
+    vertical-align: middle;
+    padding: 10px 0;
+}
+
+#titolo_logo {
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
