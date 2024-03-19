@@ -30,7 +30,7 @@ header img {
 .bottoni {
     padding: 10px;
     border-bottom: 1px solid gray;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 #first_bttn {
@@ -50,7 +50,7 @@ header img {
 
 .list {
     padding-left: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     
 }
 /* TOLGO LO STILE DEI PUNTINI ALLA LISTA */
@@ -77,27 +77,26 @@ ul {
 .green_circle{
     color: rgb(11, 186, 11);
     border: 1px solid;
-    padding: 3px;
+    padding: 2px 5px;
     border-radius: 50%;
     margin-right: 10px;
 }
 /* CREO CERCHIO ROSSO */
 .red_circle {
     color: red;
-    padding: 2px;
+    padding: 2px 5px;
     border: 1px solid;
     border-radius: 50%;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 li {
-    margin: 15px 3px;
+    margin: 15px 0px 0px 0px;
     font-size: 18px;
     font-family: Verdana, Tahoma, sans-serif;
 }
 
 .grafica{
-    border: 1px solid black;
     border-radius: 15px;
     padding: 5px 10px;
     font-size: 10px;
@@ -126,5 +125,5 @@ li {
 }
 
 .acido {
-    background-color: rgb(167, 255, 36);
+    background-color: rgb(143, 225, 20);
 }
