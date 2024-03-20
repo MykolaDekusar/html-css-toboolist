@@ -11,6 +11,7 @@ header {
 header img {
     vertical-align: middle;
     padding: 10px 0;
+    margin: 0 5px 0 20px;
 }
 /* IMPOSTO GRANDEZZA TITOLO E FONT */
 #titolo_logo {
@@ -28,7 +29,7 @@ header img {
 }
 /* IMPOSTO LO STILE E COLORE DEI BOTTONI */
 .bottoni {
-    padding: 10px;
+    padding: 40px 0 40px 0;
     border-bottom: 1px solid gray;
     padding-left: 60px;
 }
@@ -36,7 +37,7 @@ header img {
 #first_bttn {
     padding: 5px 10px;
     background-color: rgba(81, 156, 242, 0.724);
-    border: 1px solid gray;
+    border: none;
     border-radius: 5px;
     color: white;
 }
@@ -67,7 +68,6 @@ ul {
 }
 /* IMPOSTO GRANDEZZA FRECCIA */
 .arrow{
-    display: inline-block;
     font-size: 25px;
     height: 10px;
 }
@@ -89,19 +89,21 @@ ul {
     border-radius: 50%;
     margin-right: 10px;
 }
-
+/* MODIFICO LO STILE E LA DIMENSIONE DEGLI ELEMENTI LISTA */
 li {
     margin: 15px 0px 0px 0px;
     font-size: 18px;
     font-family: Verdana, Tahoma, sans-serif;
-}
 
+}
+/* CREO LE PARTI COLORATE CHE VANNO MESSE VICINO AGLI ELEMENTI DELLA LISTA */
 .grafica{
     border-radius: 15px;
     padding: 5px 10px;
     font-size: 10px;
     color: white;
     margin-left: 10px;
+    vertical-align: middle;
 }
 
 .blu {
